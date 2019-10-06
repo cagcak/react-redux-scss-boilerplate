@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-boilerplate",
+  "name": "react-redux-scss-boilerplate",
   "description": "A react application boilerplate with react-redux implementation",
   "main": "src/index.js",
   "version": "0.1.0",
@@ -7,7 +7,7 @@
   "author": "Çağrı Çakır <cagcak@outlook.com> (https://github.com/cagcak)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cagcak/react-redux-boilerplate.git"
+    "url": "https://github.com/cagcak/react-redux-scss-boilerplate.git"
   },
   "keywords": [
     "react",
@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cagcak/react-redux-boilerplate/issues"
+    "url": "https://github.com/cagcak/react-redux-scss-boilerplate/issues"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
