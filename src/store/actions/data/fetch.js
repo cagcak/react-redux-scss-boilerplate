@@ -26,10 +26,8 @@ function httpErrorHandler(response) {
 export function fetchData() {
     return dispatch => {
         dispatch(fetchDataBegin())
-
-        const RequestMethod = process.env.REACT_APP_API_READY ? getAppData() : fakeGetData()
-
-        return RequestMethod
+        // when API ready, change fakeGetData() with getAppData()
+        return fakeGetData()
             .then(json => {
                 dispatch(fetchDataSuccess(json.data));
                 return json.data;
